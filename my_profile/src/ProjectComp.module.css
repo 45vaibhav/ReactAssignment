@@ -1,0 +1,59 @@
+.card {
+  background: #050e8b70;
+  padding: 25px;
+ width: 20vw;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+  border-left: 6px solid #4f7cff;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #04c5f0;
+}
+
+.desc {
+  margin: 10px 0;
+  color: #e8e5e5;
+  font-size: 16px;
+}
+
+.techList {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.techTagval {
+  padding: 2px 2px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #c5b013;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 16px;
+  background: #02f422b1;
+  color: rgb(23, 17, 17);
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  background: #345bff;
+}

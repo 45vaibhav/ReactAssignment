@@ -1,0 +1,35 @@
+.contactContainer {
+   padding: 4rem;
+    background-color: rgba(27, 4, 92, 0.462);
+  height: 100vh;
+  color: white;
+  width: 91.7vw;
+}
+
+.contact_h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: #8ec5ff;
+  margin-left: 39rem;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contactItem {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem 2rem;
+  width: 22rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.contactItem:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.08);
+}

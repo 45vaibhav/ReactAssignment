@@ -1,0 +1,45 @@
+.main_cont {
+    height: 100vh;
+    width: 97vw;
+    background-color: rgba(27, 4, 92, 0.462);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+.h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aqua;
+}
+.form {
+    width: 25rem;
+    background: rgba(11, 199, 224, 0.368);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 18rem;
+    margin-bottom: 10rem;
+}
+.field{
+height: 2rem;
+}
+.btn {
+    padding: 12px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;  
+}
+.btn:hover {
+    background: #25a4366c;
+}

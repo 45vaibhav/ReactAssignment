@@ -1,0 +1,40 @@
+.main_div{
+    display: flex;
+    justify-content: end;
+    background-color:#1b045c76 ;
+   border: 2px solid rgb(159, 168, 159);
+    border-radius: 10px;
+}
+.sub_cont{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10rem;
+    padding: 0.8em;
+}
+.btn{
+    border-radius: 5px;
+    height: 35px;
+   background-color:rgba(27, 4, 92, 0.462) ;
+   padding: 4px;
+   
+}
+.btn:hover{
+    background-color: rgba(237, 249, 7, 0.711);
+}
+.tag{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 0.4em;
+
+
+}.img{
+    height: 40px;
+    padding: 12px;
+}
+.img_cont{
+     height: 100%;
+    width: 40%;
+}

@@ -1,0 +1,80 @@
+.main_container{
+    height: 70rem;
+    width: 106rem;
+    /* border: 2px solid red; */
+    background-color: rgba(27, 4, 92, 0.462);
+}
+.sub_container{
+    height: 66%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.child_sub_container{
+    height: 100%;
+    width: 43%;
+    /* border: 2px solid white; */
+    padding-top: 7%;
+    margin-left: 7rem;
+}
+.h1_div{
+    width: 58%;
+    height: 20%;
+    /* border: 2px solid green; */
+ padding-top: 10px;
+  
+  margin-bottom: 4rem;
+}
+.h1{
+    margin-top: -2rem;
+  font-size: 5rem;
+  animation: reverse;
+  color-scheme: inherit;
+  font-weight: bolder;
+  color: rgb(12, 251, 251);
+}
+.para2{
+    margin-top:-1rem;
+    font-size: 18px;
+    color: rgba(177, 189, 189, 0.752);
+    
+}
+.page_1_btn_div{
+    height: 8%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: -1rem;
+   
+    
+}
+.h2_phlosofy{
+     margin-left: 0rem;
+    font-size: 26px;
+    margin-top: -3.5rem;
+}
+.h2{
+    margin-top: -6rem;
+    margin-left: 7rem;
+    font-size: 26px;
+}
+.profile_photo{
+    height: 73%;
+    width: 60%;
+    /* border: 2px solid yellow; */
+    border-radius: 6%;
+    margin-top: -2rem;
+    margin-left: -10rem;
+    overflow: hidden;
+}
+.img{
+    object-fit: cover;
+}
+.skill_div{
+  margin-top: 15px;
+  height: 17rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+
+}

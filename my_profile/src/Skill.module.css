@@ -1,0 +1,52 @@
+.box {
+   background-color: rgba(27, 4, 92, 0.462);
+  border-radius: 15px;
+  padding-left: 20px;
+  width: 20rem;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+  transition: 0.3s ease-in-out;
+  margin-left: 6rem;
+  height: 25.5rem;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
+}
+
+.title {
+  font-size: 22px;
+ 
+  color: #07f5f5;
+  font-weight: bold;
+}
+
+.desc {
+  
+  font-size: 14px;
+  color: #8f8c8c;
+  margin-top: -1rem;
+
+}
+
+.level {
+  font-weight: bold;
+  color: #0077ff;
+}
+.duration {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #f8f4f4;
+}
+.skill{
+     margin: 10px 0;
+  font-size: 15px;
+  color: #04cbfd;
+}
+.skill_h2{
+      margin: 10px 0;
+  font-size: 21px;
+  color: #ece4e4;
+}
