@@ -23,9 +23,9 @@ function Project() {
       </div>
       
 <div className={style.learn_div}>
-  <h1 >What I learned from projects</h1>
+  <h1 className={style.learn_h1} >What I learned from projects</h1>
 
-  <p className={style.learn_paragraph}>
+  <p className={style.learn_para}>
     Through these projects I gained practical experience in designing responsive UIs,
     integrating third-party APIs, handling state and data flow, building RESTful backends,
     and deploying full-stack applications. I focused on writing clean, maintainable code,

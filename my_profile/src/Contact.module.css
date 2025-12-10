@@ -1,35 +1,39 @@
 .contactContainer {
-   padding: 4rem;
-    background-color: rgba(27, 4, 92, 0.462);
+  width: 100vw;
   height: 100vh;
+  padding: 5vh 5vw;
+  background-color: rgba(27, 4, 92, 0.462);
   color: white;
-  width: 91.7vw;
+  overflow: hidden;
+  align-items: center; 
 }
-
 .contact_h1 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
+  font-size: 3vw;          
+  margin-left: 36vw;       
+  margin-bottom: 4vh;
   color: #8ec5ff;
-  margin-left: 39rem;
 }
-
 .contactBox {
   display: flex;
+  /* border: 2px solid red; */
+  height: 80%;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3vh;   
+  padding-top: 1%;            
 }
-
 .contactItem {
+  width: 25vw;  
+  height: 20%;          
+  padding: 3vh 2vw;
+  border-radius: 1vw;
   background: rgba(255, 255, 255, 0.05);
-  padding: 1.5rem 2rem;
-  width: 22rem;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  transition: 0.3s;
+  box-shadow: 0 1vw 2vw rgba(0,0,0,0.3);
+  transition: 0.3s ease;
 }
 
 .contactItem:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.5vh);
   background: rgba(255,255,255,0.08);
+  box-shadow: 0 1px 5px rgba(171, 157, 157, 0.186);
 }

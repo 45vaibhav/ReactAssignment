@@ -8,9 +8,9 @@ function Meeters() {
       <h1 className={style.h1}>Welcome {state.name}....</h1>
         <h1 className={style.h2}>thank you for registering</h1>
       <div className={style.box} >
-      <p>Name: <b>{state?.name}</b></p>
-      <p>Email:  <b>{state?.email}</b></p>
-      <p>contact: <b>{state?.phone}</b></p>
+      <p className={style.p}>Name: <b className={style.b}>{state?.name}</b></p>
+      <p className={style.p}>Email:  <b  className={style.b}>{state?.email}</b></p>
+      <p className={style.p}>contact: <b className={style.b}>{state?.phone}</b></p>
       </div>
     </div>
   );

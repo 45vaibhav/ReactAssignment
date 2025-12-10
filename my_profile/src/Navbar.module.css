@@ -21,7 +21,9 @@
    
 }
 .btn:hover{
-    background-color: rgba(237, 249, 7, 0.711);
+    background-color: rgba(237, 249, 7, 0.76);
+    box-shadow: 0 1px 7px rgb(110, 1, 1);
+    color: rgb(168, 6, 6);
 }
 .tag{
     font-size: 1.3rem;
