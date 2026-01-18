@@ -1,0 +1,127 @@
+/* Page container */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- FORM CARD ---------- */
+.formCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+  text-align: center;
+}
+
+/* ---------- INPUTS (VERTICAL) ---------- */
+.input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+/* ---------- REGISTER BUTTON ---------- */
+.registerBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registerBtn:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- STUDENT LIST CARD ---------- */
+.tableCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Sub heading */
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* ---------- TABLE ---------- */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f1f3f5;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  font-weight: bold;
+  color: #333;
+}
+
+.table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* ---------- DELETE BUTTON ---------- */
+.deleteBtn {
+  padding: 8px 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}
+
+/* ---------- EMPTY TEXT ---------- */
+.empty {
+  text-align: center;
+  color: #6c757d;
+  font-size: 15px;
+}
