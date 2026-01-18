@@ -12,7 +12,7 @@ setForm({ ...form, [e.target.name]: e.target.value });
 };
 
 
-const registerStudent = () => {
+const registerStudent =async () => {
 if (!form.name || !form.email || !form.course) {
 alert("All fields are required");
 return;
